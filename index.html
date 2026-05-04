@@ -175,7 +175,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 <script>
 var _userName = sessionStorage.getItem('finarq_name') || '';
 function checkPw(){
-  const PW = 'Finarq2025';
+  const PW = 'FinarqLearn2026';
   const val = document.getElementById('pw-input').value;
   const nameEl = document.getElementById('pw-name');
   const nombre = nameEl ? nameEl.value.trim() : '';
@@ -482,7 +482,7 @@ const DB={
 <tr><td>Monto total por pagar</td><td>$1,280,000 MXN</td></tr>
 <tr><td>Plazo estimado</td><td>12 meses</td></tr>
 </table>
-<div class="alertbox"><strong>⚠ ALERTA — Verificación del costo financiero (obligatorio):</strong> SIEMPRE verifica que el costo financiero NO supere el 26%. Fórmula: Monto a pagar / Monto a otorgar. Si el resultado es mayor a 1.26, reportar al grupo de WhatsApp para que modifiquen la oferta antes de presentarla al cliente.</div>
+<div class="alertbox"><strong>⚠ ALERTA — Verificación del costo financiero (obligatorio):</strong> SIEMPRE verifica que el costo financiero NO supere el 32%. Fórmula: Monto a pagar / Monto a otorgar. Si el resultado es mayor a 1.26, reportar al grupo de WhatsApp para que modifiquen la oferta antes de presentarla al cliente.</div>
 <h3>3. Perfil del Cliente Objetivo</h3>
 <table>
 <tr><th>Criterio</th><th>Requisito</th></tr>
@@ -517,7 +517,7 @@ const DB={
 <div class="alertbox"><strong>⚠ Verificar CIEC ANTES del registro</strong> usando el validador del SAT (siat.sat.gob.mx). Una CIEC incorrecta detiene el proceso.</div>
 <h4>Etapa 2 — Pre-oferta y Validación</h4>
 <p><strong>Paso 3:</strong> Publicar en el grupo de WhatsApp PROSPECCION CLIENTE la captura del registro + Excel con 1 año de ventas TPV.</p>
-<p><strong>Paso 4:</strong> Hay Cash envía oferta. Verificar que costo financiero sea ≤ 26% (Monto a pagar / Monto a otorgar). Si es mayor, solicitar nueva oferta.</p>
+<p><strong>Paso 4:</strong> Hay Cash envía oferta. Verificar que costo financiero sea ≤ 32% (Monto a pagar / Monto a otorgar). Si es mayor, solicitar nueva oferta.</p>
 <p><strong>Paso 5:</strong> Si cliente acepta, recopilar documentación completa.</p>
 <p><strong>Paso 6:</strong> Solicitar al grupo Finarq–Hay Cash el checklist de documentos y links de buró.</p>
 <h4>Etapa 3 — Envío del Expediente</h4>
@@ -543,7 +543,7 @@ questions:[
 {question:'¿Cómo determina Hay Cash el monto de financiamiento que puede otorgar?',options:['Con base en el historial fiscal del cliente','Con base en sus activos y garantías','Con base en el promedio mensual de ventas con TPV','Con base en su antigüedad en el SAT'],correct:2,explanation:'Hay Cash basa el monto en las ventas mensuales con tarjeta a través de Terminal Punto de Venta (TPV), no en historial fiscal ni garantías.'},
 {question:'¿Cuál es la principal diferencia del esquema de pago de Hay Cash vs. saldos insolutos?',options:['El cliente paga menos intereses si liquida antes','El monto total a pagar es fijo desde el inicio','Se recalcula la deuda cada mes','Solo se pagan intereses al final'],correct:1,explanation:'Hay Cash usa un factor fijo: el monto total a pagar no disminuye aunque el cliente liquide antes del plazo.'},
 {question:'¿Cuál de los siguientes es un requisito obligatorio del cliente?',options:['Tener bienes inmuebles a su nombre','Ventas TPV mínimas de $200,000 mensuales','Estados financieros auditados','Más de 5 años de operación'],correct:1,explanation:'Se requieren mínimo $200,000 MXN/mes en ventas con tarjeta vía TPV. No se piden estados financieros ni garantías hipotecarias.'},
-{question:'¿Cuál es el límite máximo permitido del costo financiero que debe validar el asesor?',options:['20%','24%','26%','30%'],correct:2,explanation:'El asesor FINARQ debe verificar que el costo financiero no supere el 26%. Si Monto a pagar / Monto a otorgar > 1.26, se debe solicitar nueva oferta.'},
+{question:'¿Cuál es el límite máximo permitido del costo financiero que debe validar el asesor?',options:['24%','28%','32%','34%'],correct:2,explanation:'El asesor FINARQ debe verificar que el costo financiero no supere el 32%. Si Monto a pagar / Monto a otorgar > 1.26, se debe solicitar nueva oferta.'},
 {question:'¿Qué es el mecanismo de pago "Split"?',options:['Un pago mensual fijo programado','Un sistema de cobranza manual','División automática de ventas para pagar el crédito','Un cobro único al final del plazo'],correct:2,explanation:'El Split automático divide cada depósito de ventas con tarjeta: una parte va al pago del crédito y el resto se transfiere a la cuenta del comercio.'},
 {question:'¿Qué implica el uso de un "factor fijo" en el crédito?',options:['Que el cliente puede reducir intereses si paga antes','Que el monto total a pagar no cambia aunque liquide antes','Que el crédito no genera intereses','Que el pago depende del tipo de cambio'],correct:1,explanation:'Con factor fijo, el monto total a pagar está determinado desde el inicio y no se reduce aunque el cliente liquide antes del plazo.'},
 {question:'¿En qué caso NO se debería ofrecer Hay Cash?',options:['Cliente con ventas TPV de $300,000','Cliente con buró limpio','Cliente con ventas TPV de $180,000 mensuales','Cliente con 12 meses de operación'],correct:2,explanation:'Hay Cash requiere mínimo $200,000 MXN/mes en ventas TPV. Un cliente con $180,000/mes está por debajo del umbral mínimo.'},
